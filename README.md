@@ -10,7 +10,7 @@ The Datadog Azure integration discovers supported Azure resources in the subscri
 - Log Analytics workspace and Azure Monitor resources
 - Microsoft Defender for Cloud configuration (where exposed by Azure integration/resource collection)
 
-The integration enables Azure metrics and resource collection. It does **not** mean every resource has a continuously emitted metric. For example, resource groups, VNets, and NSGs are primarily configuration/inventory objects; use Azure Activity Logs, Azure Resource Health, CSPM/security posture, and log forwarding for operational/security signals.
+The integration enables Azure metrics and resource collection. It does **not** mean every resource has a continuously emitted metric. For instance, resource groups, VNets, and NSGs are primarily configuration/inventory objects; use Azure Activity Logs, Azure Resource Health, CSPM/security posture, and log forwarding for operational/security signals.
 
 Included monitor:
 - Azure VM CPU high (`azure.vm.percentage_cpu`).
