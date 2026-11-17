@@ -1,7 +1,4 @@
 # Datadog monitoring for Faj Azure infrastructure
-
-This is a **separate Terraform root module** for Datadog configuration. Keep it separate from the Azure resource deployment so the Datadog provider credentials and lifecycle do not become coupled to Azure resource provisioning.
-
 ## What it covers
 
 The Datadog Azure integration discovers supported Azure resources in the subscription(s) accessible to its Entra application, including the project's:
